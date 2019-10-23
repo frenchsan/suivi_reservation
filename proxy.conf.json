@@ -1,0 +1,6 @@
+{
+  "/api": {
+    "target": "https://api.bureau401.fr",
+    "secure": false
+  }
+}

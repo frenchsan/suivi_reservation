@@ -1,0 +1,309 @@
+  {
+    "message": [
+      {
+        "id": 515,
+        "room": {
+          "id": 1,
+          "name": "Les disparus du Fort Lachaux",
+          "description": "Embarquez pour une extraordinaire aventure, qui vous m\u00e8nera jusqu\u2019aux ruines du Fort Lachaux. Suivez les traces de Papy Louis, r\u00e9solvez les \u00e9nigmes, passez les emb\u00fbches et d\u00e9couvrez la r\u00e9alit\u00e9 des \"Disparus du Fort Lachaux\" !",
+          "available": true,
+          "game_duration": 60,
+          "min_players": 2,
+          "max_players": 6,
+          "min_level": 1,
+          "max_level": 3,
+          "planning": [],
+          "room_prices": []
+        },
+        "hour_start": "2019-10-10T16:00:00+0200",
+        "number_of_players": 7,
+        "level": 1,
+        "score": 0,
+        "total_price": "96",
+        "creation_time": "2019-09-21T15:09:39+0200",
+        "is_validated": true,
+        "is_updatable": true,
+        "is_cancelable": true,
+        "subscribers": [
+          {
+            "id": 984,
+            "email": "franck-marechal@wanadoo.fr",
+            "firstname": "Lou-Ma\u00e9",
+            "lastname": "Marechal--Fournier",
+            "email_reception": true,
+            "is_main": true
+          },
+          {
+            "id": 985,
+            "email": "franck-marechal@wanadoo.fr",
+            "firstname": "Sirine",
+            "lastname": "Marechal--Fournier",
+            "email_reception": true,
+            "is_main": false
+          },
+          {
+            "id": 986,
+            "email": "franck-marechal@wanadoo.fr",
+            "firstname": "Lucile ",
+            "lastname": "Motte",
+            "email_reception": true,
+            "is_main": false
+          },
+          {
+            "id": 987,
+            "email": "franck-marechal@wanadoo.fr",
+            "firstname": "Marie",
+            "lastname": "Gaulard",
+            "email_reception": true,
+            "is_main": false
+          },
+          {
+            "id": 988,
+            "email": "franck-marechal@wanadoo.fr",
+            "firstname": "Anouk",
+            "lastname": "Grenier",
+            "email_reception": true,
+            "is_main": false
+          },
+          {
+            "id": 989,
+            "email": "franck-marechal@wanadoo.fr",
+            "firstname": "Yacine",
+            "lastname": "Meddour",
+            "email_reception": true,
+            "is_main": false
+          }
+        ],
+        "invoices": [
+          {
+            "details": "session.price",
+            "total": "96.00",
+            "creation_date": "2019-09-21T15:09:39+0200"
+          }
+        ],
+        "current_staff_hosts": false,
+        "staff": []
+      },
+      {
+        "id": 522,
+        "room": {
+          "id": 2,
+          "name": "Les disparus du Fort Lachaux",
+          "description": "Embarquez pour une extraordinaire aventure, qui vous m\u00e8nera jusqu\u2019aux ruines du Fort Lachaux. Suivez les traces de Papy Louis, r\u00e9solvez les \u00e9nigmes, passez les emb\u00fbches et d\u00e9couvrez la r\u00e9alit\u00e9 des \"Disparus du Fort Lachaux\" !",
+          "available": true,
+          "game_duration": 60,
+          "min_players": 2,
+          "max_players": 6,
+          "min_level": 1,
+          "max_level": 3,
+          "planning": [],
+          "room_prices": []
+        },
+        "hour_start": "2019-10-12T20:00:00+0200",
+        "number_of_players": 6,
+        "level": 1,
+        "score": 0,
+        "total_price": "96",
+        "creation_time": "2019-10-07T09:06:59+0200",
+        "is_validated": true,
+        "is_updatable": true,
+        "is_cancelable": true,
+        "subscribers": [
+          {
+            "id": 999,
+            "email": "Melany.rebbouh@hotmail.fr",
+            "firstname": "Melany",
+            "lastname": "Rebbouh ",
+            "email_reception": true,
+            "is_main": true
+          }
+        ],
+        "invoices": [
+          {
+            "details": "session.price",
+            "total": "96.00",
+            "creation_date": "2019-10-07T09:06:59+0200"
+          }
+        ],
+        "current_staff_hosts": false,
+        "staff": []
+      },
+      {
+        "id": 527,
+        "room": {
+          "id": 1,
+          "name": "Les disparus du Fort Lachaux",
+          "description": "Embarquez pour une extraordinaire aventure, qui vous m\u00e8nera jusqu\u2019aux ruines du Fort Lachaux. Suivez les traces de Papy Louis, r\u00e9solvez les \u00e9nigmes, passez les emb\u00fbches et d\u00e9couvrez la r\u00e9alit\u00e9 des \"Disparus du Fort Lachaux\" !",
+          "available": true,
+          "game_duration": 60,
+          "min_players": 2,
+          "max_players": 6,
+          "min_level": 1,
+          "max_level": 3,
+          "planning": [],
+          "room_prices": []
+        },
+        "hour_start": "2019-10-20T16:00:00+0200",
+        "number_of_players": 5,
+        "level": 1,
+        "score": 0,
+        "total_price": "85",
+        "creation_time": "2019-10-08T23:24:49+0200",
+        "is_validated": true,
+        "is_updatable": true,
+        "is_cancelable": true,
+        "subscribers": [
+          {
+            "id": 1004,
+            "email": "ckersante@yahoo.com",
+            "firstname": "Corinne",
+            "lastname": "Kersante ",
+            "email_reception": true,
+            "is_main": true
+          }
+        ],
+        "invoices": [
+          {
+            "details": "session.price",
+            "total": "85.00",
+            "creation_date": "2019-10-08T23:24:49+0200"
+          }
+        ],
+        "current_staff_hosts": false,
+        "staff": []
+      },
+      {
+        "id": 522,
+        "room": {
+          "id": 1,
+          "name": "Les disparus du Fort Lachaux",
+          "description": "Embarquez pour une extraordinaire aventure, qui vous m\u00e8nera jusqu\u2019aux ruines du Fort Lachaux. Suivez les traces de Papy Louis, r\u00e9solvez les \u00e9nigmes, passez les emb\u00fbches et d\u00e9couvrez la r\u00e9alit\u00e9 des \"Disparus du Fort Lachaux\" !",
+          "available": true,
+          "game_duration": 60,
+          "min_players": 2,
+          "max_players": 6,
+          "min_level": 1,
+          "max_level": 3,
+          "planning": [],
+          "room_prices": []
+        },
+        "hour_start": "2019-10-12T20:00:00+0200",
+        "number_of_players": 6,
+        "level": 1,
+        "score": 0,
+        "total_price": "96",
+        "creation_time": "2019-10-07T09:06:59+0200",
+        "is_validated": true,
+        "is_updatable": true,
+        "is_cancelable": true,
+        "subscribers": [
+          {
+            "id": 999,
+            "email": "Melany.rebbouh@hotmail.fr",
+            "firstname": "Melany",
+            "lastname": "Rebbouh ",
+            "email_reception": true,
+            "is_main": true
+          }
+        ],
+        "invoices": [
+          {
+            "details": "session.price",
+            "total": "96.00",
+            "creation_date": "2019-10-07T09:06:59+0200"
+          }
+        ],
+        "current_staff_hosts": false,
+        "staff": []
+      },
+      {
+        "id": 522,
+        "room": {
+          "id": 1,
+          "name": "Les disparus du Fort Lachaux",
+          "description": "Embarquez pour une extraordinaire aventure, qui vous m\u00e8nera jusqu\u2019aux ruines du Fort Lachaux. Suivez les traces de Papy Louis, r\u00e9solvez les \u00e9nigmes, passez les emb\u00fbches et d\u00e9couvrez la r\u00e9alit\u00e9 des \"Disparus du Fort Lachaux\" !",
+          "available": true,
+          "game_duration": 60,
+          "min_players": 2,
+          "max_players": 6,
+          "min_level": 1,
+          "max_level": 3,
+          "planning": [],
+          "room_prices": []
+        },
+        "hour_start": "2019-10-12T20:00:00+0200",
+        "number_of_players": 6,
+        "level": 1,
+        "score": 0,
+        "total_price": "96",
+        "creation_time": "2019-10-07T09:06:59+0200",
+        "is_validated": true,
+        "is_updatable": true,
+        "is_cancelable": true,
+        "subscribers": [
+          {
+            "id": 999,
+            "email": "Melany.rebbouh@hotmail.fr",
+            "firstname": "Melany",
+            "lastname": "Rebbouh ",
+            "email_reception": true,
+            "is_main": true
+          }
+        ],
+        "invoices": [
+          {
+            "details": "session.price",
+            "total": "96.00",
+            "creation_date": "2019-10-07T09:06:59+0200"
+          }
+        ],
+        "current_staff_hosts": false,
+        "staff": []
+      },
+      {
+        "id": 522,
+        "room": {
+          "id": 1,
+          "name": "Les disparus du Fort Lachaux",
+          "description": "Embarquez pour une extraordinaire aventure, qui vous m\u00e8nera jusqu\u2019aux ruines du Fort Lachaux. Suivez les traces de Papy Louis, r\u00e9solvez les \u00e9nigmes, passez les emb\u00fbches et d\u00e9couvrez la r\u00e9alit\u00e9 des \"Disparus du Fort Lachaux\" !",
+          "available": true,
+          "game_duration": 60,
+          "min_players": 2,
+          "max_players": 6,
+          "min_level": 1,
+          "max_level": 3,
+          "planning": [],
+          "room_prices": []
+        },
+        "hour_start": "2019-10-12T20:00:00+0200",
+        "number_of_players": 6,
+        "level": 1,
+        "score": 0,
+        "total_price": "96",
+        "creation_time": "2019-10-07T09:06:59+0200",
+        "is_validated": true,
+        "is_updatable": true,
+        "is_cancelable": true,
+        "subscribers": [
+          {
+            "id": 999,
+            "email": "Melany.rebbouh@hotmail.fr",
+            "firstname": "Melany",
+            "lastname": "Rebbouh ",
+            "email_reception": true,
+            "is_main": true
+          }
+        ],
+        "invoices": [
+          {
+            "details": "session.price",
+            "total": "96.00",
+            "creation_date": "2019-10-07T09:06:59+0200"
+          }
+        ],
+        "current_staff_hosts": false,
+        "staff": []
+      }
+    ],
+    "returnCode": 200
+  }

@@ -1,0 +1,108 @@
+<div class="container-fluid">
+  <div class="row">
+    <p>
+      <button mat-raised-button color="primary" (click)="availabilityCreate()">create availabiliy</button>
+    </p>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+        <mat-form-field>
+            <mat-label>Selection de la salle</mat-label>
+            <mat-select [(value)]="selected">
+                <mat-option value="1">Les disparus du Fort Lachaux</mat-option>
+                <mat-option value="2">Halloween 2019</mat-option>
+              </mat-select>
+
+            <!-- <mat-select>
+              <mat-option *ngFor="let room of rooms" [(value)]="room.value">{{room.viewValue}}</mat-option>
+            </mat-select> -->
+          </mat-form-field>
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-sm">
+        <mat-card>
+
+          <label id="example-radio-group-label">Durée de la partie</label>
+          <mat-radio-group
+            aria-labelledby="example-radio-group-label"
+            class="example-radio-group"
+            [(ngModel)]="gameTotalDuration">
+                <mat-radio-button  class="example-radio-button"  value="60">60 minutes</mat-radio-button>
+                <mat-radio-button  class="example-radio-button" value="90">90 minutes</mat-radio-button>
+          </mat-radio-group>
+        </mat-card>
+    </div>
+
+  </div>
+  <div class="row">
+
+      <div class="col-sm">
+        <div>Date de début: {{selectedStartDate  | date:'short'}}</div>
+        <mat-card >
+          <dl-date-time-picker
+          maxView="day"
+          minView="minute"
+          startView="day"
+          minuteStep="30"
+          [(ngModel)]="selectedStartDate">
+          </dl-date-time-picker>
+        </mat-card>
+
+
+    </div>
+    <div class="col-sm">
+        <div>Date de fin: {{selectedEndDate | date:'short'}}</div>
+      <mat-card>
+        <dl-date-time-picker
+        maxView="day"
+        minView="minute"
+        startView="day"
+        minuteStep="30"
+        [(ngModel)]="selectedEndDate">
+        </dl-date-time-picker>
+      </mat-card>
+    </div>
+
+  </div>
+  <div class="row">
+      <div class="mx-auto my-5" style="width: 200px;">
+      <button style="width: 200px;" mat-raised-button color="primary" (click) ="creer()">Creer les crénaux</button>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <div id="login">
+  <mat-card id="loginCard">
+    <p id="cardTitle"></p>
+
+    <form [formGroup]="availabilityForm" (ngSubmit)="onSubmit()">
+      <label>
+        Room:
+        <input type="text" formControlName="room_id" required>
+      </label>
+      <label>
+        startDateTime:
+        <input type="text" formControlName="startDateTime" required>
+      </label>
+      <label>
+        endDateTime:
+        <input type="text" formControlName="endDateTime" required>
+      </label>
+      <label>
+        gameTotalDuration:
+        <input type="text" formControlName="gameTotalDuration" required>
+      </label>
+
+      <button type="submit" [disabled]="!loginForm.valid">Submit</button>
+    </form>
+  </mat-card>
+</div>
+
+
+'room_id': 1,
+'startDateTime': '2019-04-12 08:00:00',
+'endDateTime': '2019-04-12 22:00:00',
+'gameTotalDuration': 60 -->

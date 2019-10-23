@@ -1,0 +1,66 @@
+
+.reservationCard {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+}
+
+.classique {
+  background: white;
+}
+.halloween {
+  background: rgb(245, 201, 198);
+}
+
+.global_resa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+
+}
+
+hr {
+  display: block;
+  width: 100%;
+  margin: 0px;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ladate {
+  margin-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.validated {
+color:green;
+}
+.novalidated {
+color:red;
+}
+
+.green{
+color: green;
+}
+.orange{
+color: orange;
+}
+.red{
+color: red;
+}
+
