@@ -1,0 +1,87 @@
+  <mat-card (click)="openCard()" class = "reservationCard" [ngClass]="{'classique': reservation.room.id==1, 'halloween':reservation.room.id==2 }" >
+    <div *ngIf="thisweek">
+      Cette semaine
+    </div>
+  <div>
+    {{reservation.room.name}}
+  </div>
+  <div class="ladate">
+    <div>
+      {{reservation.hour_start | date: 'EEEE dd LLLL yy'}}
+    </div>
+  </div>
+    <mat-card-content class="global_resa">
+      <div>
+        <mat-icon aria-hidden="false" aria-label="Example home icon">access_time</mat-icon>
+        <div>
+            {{reservation.hour_start | date: 'H'}}H{{reservation.hour_start | date: 'm'}}
+        </div>
+      </div>
+      <div class="detail">
+        <div>
+            <mat-icon  aria-hidden="false" aria-label="Example home icon">person</mat-icon>
+        </div>
+        {{reservation.number_of_players}}
+      </div>
+
+      <div class="detail">
+        <div>Niveau</div>
+          <div *ngIf="reservation.level === 1">
+              <mat-icon class="green" aria-hidden="false" aria-label="Example home icon">looks_one</mat-icon>
+          </div>
+          <div *ngIf="reservation.level === 2">
+              <mat-icon class="orange" aria-hidden="false" aria-label="Example home icon">looks_two</mat-icon>
+          </div>
+          <div *ngIf="reservation.level === 3">
+              <mat-icon class="red" aria-hidden="false" aria-label="Example home icon">looks_3</mat-icon>
+          </div>
+      </div>
+      <div>
+          <div>Validé</div>
+        <div *ngIf="reservation.is_validated; else novalidated">
+            <mat-icon class="validated" aria-hidden="false" aria-label="Example home icon">thumb_up_alt</mat-icon>
+          </div>
+
+          <ng-template #novalidated>
+              <mat-icon  class="novalidated" aria-hidden="false" aria-label="Example home icon">thumb_down_alt</mat-icon>
+          </ng-template>
+
+      </div>
+      <div class="detail">
+          <mat-icon aria-hidden="false" aria-label="Example home icon">mail_outline</mat-icon>
+          <div>
+            {{reservation.subscribers[0].email}}
+          </div>
+      </div>
+    </mat-card-content>
+
+    <hr *ngIf="isCardOpen">
+    <mat-card-content *ngIf="isCardOpen" class="global_resa">
+        <div class="detail">
+            <div>Total</div>
+            <div>
+                {{reservation.total_price}} €
+            </div>
+          </div>
+          <div class="detail">
+            <div>
+                <div>Création</div>
+            </div>
+            {{reservation.creation_time | date}}
+          </div>
+
+          <div class="detail">
+              <div>Prise en compte staff</div>
+            <div *ngIf="reservation.current_staff_hosts; else novalidated">
+                <mat-icon class="validated" aria-hidden="false" aria-label="Example home icon">thumb_up_alt</mat-icon>
+              </div>
+              <ng-template #novalidated>
+                  <mat-icon  class="novalidated" aria-hidden="false" aria-label="Example home icon">thumb_down_alt</mat-icon>
+              </ng-template>
+          </div>
+
+
+
+    </mat-card-content>
+  </mat-card>
+
