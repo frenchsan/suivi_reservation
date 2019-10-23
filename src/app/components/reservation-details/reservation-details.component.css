@@ -24,6 +24,15 @@
 
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+
+}
+
 hr {
   display: block;
   width: 100%;

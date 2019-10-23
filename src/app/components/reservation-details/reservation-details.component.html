@@ -1,20 +1,22 @@
   <mat-card (click)="openCard()" class = "reservationCard" [ngClass]="{'classique': reservation.room.id==1, 'halloween':reservation.room.id==2 }" >
-    <div *ngIf="thisweek">
-      Cette semaine
-    </div>
-  <div>
-    {{reservation.room.name}}
-  </div>
-  <div class="ladate">
+    <div class='info'>
+      <div *ngIf="thisweek">
+        Cette semaine
+      </div>
     <div>
-      {{reservation.hour_start | date: 'EEEE dd LLLL yy'}}
+      {{reservation.room.name}}
     </div>
-  </div>
+    <div class="ladate">
+      <div>
+        {{reservation.hour_start | date: 'EEEE dd LLLL yyyy'}}
+      </div>
+    </div>
+    </div>
     <mat-card-content class="global_resa">
       <div>
         <mat-icon aria-hidden="false" aria-label="Example home icon">access_time</mat-icon>
         <div>
-            {{reservation.hour_start | date: 'H'}}H{{reservation.hour_start | date: 'm'}}
+            {{reservation.hour_start | date: 'H'}}H{{reservation.hour_start | date: 'mm'}}
         </div>
       </div>
       <div class="detail">
