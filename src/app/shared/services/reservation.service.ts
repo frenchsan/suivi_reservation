@@ -14,11 +14,11 @@ export class ReservationService {
 
   constructor(private http: HttpClient, private utilsService: UtilsService ) { }
 
-  getListReservation() {
+  getListReservation(endDateTime = '2030-03-20 16:34:55') {
     const body = {
    //   'startDateTime': '2019-07-19 08:00:00',
       startDateTime: this.utilsService.dateAndHour,
-      endDateTime: '2030-03-20 16:34:55',
+      endDateTime,
       unvalidated: true};
 
     return this.http.post<ReservationObject>(this.baseUrl + '/api/staff/sessions', body);

@@ -6,7 +6,7 @@ import { ReservationsComponent } from './pages/reservations/reservations.compone
 const routes: Routes = [
   {path: '',  redirectTo: '/login',pathMatch: 'full'},
   {path: 'login', component: LoginComponent},
-  {path: 'sessionconsult', component: ReservationsComponent},
+  {path: 'sessionconsult/:id', component: ReservationsComponent},
 ];
 
 @NgModule({

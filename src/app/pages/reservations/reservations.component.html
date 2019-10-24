@@ -2,7 +2,7 @@
     Nous sommes le {{today | date}}
 </div>
 <div>
-  Nous avons {{reservationList.length}} séances au planning
+  Nous avons {{reservationList?.length}} séances au planning
 </div>
 <div *ngFor="let reservation of reservationList">
  <app-reservation-details [reservation] ="reservation"></app-reservation-details>
