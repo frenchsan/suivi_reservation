@@ -21,7 +21,7 @@ export class AuthenticationService {
       (data) => {
         if (data.body['token']) {
           localStorage.setItem('token', data.body['token']);
-          this.router.navigate(['sessionconsult']);
+          this.router.navigate(['sessionconsult/1']);
         }
       }
     );
