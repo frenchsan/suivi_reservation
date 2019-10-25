@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve --proxy-config ./proxy.conf.json",
     "build": "ng build",
+    "buildpreprod": "ng build --configuration preproduction",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
